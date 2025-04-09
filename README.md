@@ -36,7 +36,7 @@
 17. Click on **Deploy**
 
 ## 🌐 API Gateway
-
+1. In the search bar at the top of the AWS Management Console, type API Gateway and select **API Gateway from the dropdown**.
 
 
    
