@@ -82,12 +82,15 @@
 - Choose **Lambda Function** as the integration type.
 - Enable **Lambda Proxy Integration.**
 - Enter the name of your Lambda function and click **Save.**
+![Picture15](https://github.com/user-attachments/assets/cf0fadb2-5591-4503-8265-7a0907bf3292)
 24. **PUT Method for /users/{user_id}:**
 - Select the /users/{user_id} resource.
 - Click on **Create Method** and choose **PUT.**
 - Choose **Lambda Function** as the integration type.
 - Enable **Lambda Proxy Integration.**
 - Enter the name of your Lambda function and click **Save.**
+![Picture16](https://github.com/user-attachments/assets/0305298c-5584-4e67-afa8-3387e3aeb269)
+
 
 
 
