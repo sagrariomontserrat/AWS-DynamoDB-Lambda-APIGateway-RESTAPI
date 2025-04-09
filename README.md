@@ -45,13 +45,13 @@
 6. Set the **Endpoint type** to **Regional**.
 7. Click **Create API**.
 ![Picture11](https://github.com/user-attachments/assets/42c13d76-e838-40e6-9486-e934b42c35bb)
-8. Now that your API is created, you can add resources and methods **(GET, POST, PUT, DELETE)**.
-9. Choose **Create resource**.
-10. Type **Resource name**.
-11. Enable option **CORS (Cross Origin Resource Sharing)**.
-12. Click **Create resource**.
+8. Now that your API is created, you can add resources and methods.
+9. The root resource (/) is the base path for your API. You can create methods here.  **(GET, POST, PUT, DELETE)**.
+10. In the **Resources section** of your API, click on **Create Resource.**
+11. Set the **Resource Name** to users and the Resource Path to /users.
+12. Click **Create Resource.**
 ![Picture12](https://github.com/user-attachments/assets/6bf33a9a-9414-44ee-88b2-cd9659d79c32)
-13. Create resource **/users** 
+13. 
 
 
 
