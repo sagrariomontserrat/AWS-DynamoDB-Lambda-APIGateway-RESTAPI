@@ -50,8 +50,69 @@
 10. In the **Resources section** of your API, click on **Create Resource.**
 11. Set the **Resource Name** to users and the Resource Path to /users.
 12. Click **Create Resource.**
-![Picture12](https://github.com/user-attachments/assets/6bf33a9a-9414-44ee-88b2-cd9659d79c32)
-13. 
+![Picture12](https://github.com/user-attachments/assets/ff49f76f-9628-4408-b548-770c9b758ccc)
+13. Create Methods for /users.
+14. Select the /users resource.
+15. Choose **Create Method** and select **GET** from the dropdown.
+16. Choose **Lambda Function** as the integration type.
+17. Enable **Lambda Proxy Integration.**
+18. Enter the name of your Lambda function and click **Save.**
+![Picture13](https://github.com/user-attachments/assets/88370a95-465a-43bd-9a4f-c9f8fb13e75c)
+19. Select the /users resource.
+20. Click on **Create Method** and select **POST.**
+21. Choose **Lambda Function** as the integration type.
+22. Enable **Lambda Proxy Integration.**
+23. Enter the name of your Lambda function and click **Save.**
+![Picture14](https://github.com/user-attachments/assets/738a2a45-f2e4-40aa-b856-dd37eff00ce7)
+24. Next, we create the /users/{user_id} resource to handle specific users.
+25. Select the /users resource.
+26. Click on **Create Resource.**
+27. Set the Resource Name to user_id and the Resource Path to /users/{user_id}.
+28. Click **Create Resource.*
+29. Create Methods for /users/{user_id}.
+-- GET Method for /users/{user_id}:
+-- Select the /users/{user_id} resource.
+-- Click on **Create Method** and **choose GET.**
+-- Choose **Lambda Function** as the integration type.
+-- Enable **Lambda Proxy Integration.**
+-- Enter the name of your Lambda function and click **Save.**
+
+DELETE Method for /users/{user_id}:
+
+Select the /users/{user_id} resource.
+
+Click on Actions > Create Method and choose DELETE.
+
+Choose Lambda Function as the integration type.
+
+Enable Lambda Proxy Integration.
+
+Enter the name of your Lambda function and click Save.
+
+OPTIONS Method for /users/{user_id}:
+
+Select the /users/{user_id} resource.
+
+Click on Actions > Create Method and choose OPTIONS.
+
+Choose Mock Integration for CORS pre-flight.
+
+Click Save.
+
+PUT Method for /users/{user_id}:
+
+Select the /users/{user_id} resource.
+
+Click on Actions > Create Method and choose PUT.
+
+Choose Lambda Function as the integration type.
+
+Enable Lambda Proxy Integration.
+
+Enter the name of your Lambda function and click Save.
+
+
+
 
 
 
