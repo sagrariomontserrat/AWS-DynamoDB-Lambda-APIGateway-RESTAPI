@@ -110,9 +110,6 @@
 
 1. **Test POST /users**
 2. Use the Body tab in Postman and select raw and JSON as the format. You can add a sample user object like this:
-
-## Usage/Examples
-
 ```json
 {
   "user_id": "123",
@@ -120,6 +117,15 @@
   "email": "johndoe@example.com"
 }
 ```
+3. Select the **POST** method.
+4. In the **URL bar**, enter the URL for /users
+5. Go to the **Body tab**, choose **raw**, and select **JSON** from the dropdown.
+6. Enter the user data in JSON format.
+7. Click **Send.**
+8. If successful, the API should return a 200 OK response with a confirmation message or the created user data.
+![Picture20](https://github.com/user-attachments/assets/a5a33b0e-905b-4dfb-a3c0-d77afbd5c03f)
+
+
 
   
 
