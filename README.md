@@ -125,11 +125,46 @@
 8. If successful, the API should return a 200 OK response with a confirmation message or the created user data.
 ![Picture20](https://github.com/user-attachments/assets/a5a33b0e-905b-4dfb-a3c0-d77afbd5c03f)
 
+1.- **Test GET /users/{user_id}**
+2. Select the **GET** method.
+3. In the **URL bar**, enter the URL for **/users/{user_id}**
+4. Click **Send.**
+5. If the user exists in your database, the API will return a 200 OK response with the user's data.
+![Picture21](https://github.com/user-attachments/assets/ded15209-5bad-4654-abd2-3aa720e09765)
 
+1. **Test PUT /users/{user_id}**
+2. Select the **PUT** method.
+3. In the **URL bar**, enter the URL for **/users/{user_id}**
+4. Go to the **Body tab**, choose **raw**, and select **JSON** from the dropdown.
+5. Enter the updated user data in JSON format.
+6. Click **Send.**
+7. If successful, you will receive a 200 OK response with a message indicating the user has been updated.
+![Picture22](https://github.com/user-attachments/assets/66111f32-a16e-4b65-8294-f2d07f3a99cf)
 
-  
+1. **Test DELETE /users/{user_id}**
+2. Select the **DELETE** method.
+3. In the **URL bar**, enter the URL for **/users/{user_id}**
+4. Click **Send.**
+5. If successful, you will receive a 200 OK response with a message indicating that the user has been deleted.
+![Picture23](https://github.com/user-attachments/assets/b464c013-5be7-4b63-8eb8-2398b16689fb)
 
+1. **To access an API URL in a browser**
+2. In the top address bar, enter the URL of the API endpoint.
+3. After typing the URL, press Enter on your keyboard.
+4. If your API endpoint supports GET requests, you'll see the response from the API (usually in JSON format) directly in the browser.
+![Picture24](https://github.com/user-attachments/assets/355b946a-2e27-4956-b8f4-489cc2eb6666)
+![Picture25](https://github.com/user-attachments/assets/14bfcb3b-f3ce-4ce7-ae4c-a8d47aeaa66a)
+![Picture26](https://github.com/user-attachments/assets/9d83cf50-8a01-4688-960c-9cbc16565d22)
 
+(For methods like POST, PUT, and DELETE, browsers cannot directly make these requests by typing in the URL bar. You will need to use a tool like Postman or cURL in the command line to send those types of requests.)
+**POST/PUT/DELETE:** Use a tool like Postman to specify the method, add body data, headers, and test the API.
+
+## ✅ Table in DynamoDB
+1. In the search bar at the top, type "DynamoDB" and select DynamoDB from the list of services.
+2. On the left-hand navigation pane, select **Explore Items**.
+3. Find the table you want to view and click on its name.
+4. Now you can see the actual data stored in the table.
+![Picture27](https://github.com/user-attachments/assets/f4baf263-d19d-401d-bccd-4653a2075f20)
 
 
 
