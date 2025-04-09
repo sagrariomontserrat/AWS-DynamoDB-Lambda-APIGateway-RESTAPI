@@ -33,10 +33,27 @@
 15. On the left navigation pane click on **Code**.
 16. You’ll write the Python code that allows you to perform CRUD operations on DynamoDB.
 ![Picture9](https://github.com/user-attachments/assets/d4d68e80-81e2-4fee-af85-8f68d4688794)
-17. Click on **Deploy**
+17. Click on **Deploy**.
 
 ## 🌐 API Gateway
 1. In the search bar at the top of the AWS Management Console, type API Gateway and select **API Gateway from the dropdown**.
+2. Choose **Create API**.
+3. Choose an API type. **(RESTAPI)**.
+![Picture10](https://github.com/user-attachments/assets/a8d175dd-4604-4126-be82-23cea82e23e0)
+4. Choose **New API**.
+5. Give the API name.
+6. Set the **Endpoint type** to **Regional**.
+7. Click **Create API**.
+![Picture11](https://github.com/user-attachments/assets/42c13d76-e838-40e6-9486-e934b42c35bb)
+8. Now that your API is created, you can add resources and methods **(GET, POST, PUT, DELETE)**.
+9. Choose **Create resource**.
+10. Type **Resource name**.
+11. Enable option **CORS (Cross Origin Resource Sharing)**.
+12. Click **Create resource**.
+![Picture12](https://github.com/user-attachments/assets/6bf33a9a-9414-44ee-88b2-cd9659d79c32)
+13. Create resource **/users** 
+
+
 
 
    
