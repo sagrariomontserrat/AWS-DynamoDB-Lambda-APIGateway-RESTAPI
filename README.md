@@ -53,36 +53,36 @@
 ![Picture12](https://github.com/user-attachments/assets/ff49f76f-9628-4408-b548-770c9b758ccc)
 13. Create Methods for /users.
 14. Select the /users resource.
-15. Choose **Create Method** and select **GET** from the dropdown.
-16. Choose **Lambda Function** as the integration type.
-17. Enable **Lambda Proxy Integration.**
-18. Enter the name of your Lambda function and click **Save.**
+- Choose **Create Method** and select **GET** from the dropdown.
+- Choose **Lambda Function** as the integration type.
+- Enable **Lambda Proxy Integration.**
+- Enter the name of your Lambda function and click **Save.**
 ![Picture13](https://github.com/user-attachments/assets/88370a95-465a-43bd-9a4f-c9f8fb13e75c)
-19. Select the /users resource.
-20. Click on **Create Method** and select **POST.**
-21. Choose **Lambda Function** as the integration type.
-22. Enable **Lambda Proxy Integration.**
-23. Enter the name of your Lambda function and click **Save.**
+15. Select the /users resource.
+- Click on **Create Method** and select **POST.**
+- Choose **Lambda Function** as the integration type.
+- Enable **Lambda Proxy Integration.**
+- Enter the name of your Lambda function and click **Save.**
 ![Picture14](https://github.com/user-attachments/assets/738a2a45-f2e4-40aa-b856-dd37eff00ce7)
-24. Next, we create the /users/{user_id} resource to handle specific users.
-25. Select the /users resource.
-26. Click on **Create Resource.**
-27. Set the Resource Name to user_id and the Resource Path to /users/{user_id}.
-28. Click **Create Resource.*
-29. Create Methods for /users/{user_id}.
-30. **GET Method for /users/{user_id}:**
+16. Next, we create the /users/{user_id} resource to handle specific users.
+17. Select the /users resource.
+18. Click on **Create Resource.**
+19. Set the Resource Name to user_id and the Resource Path to /users/{user_id}.
+20. Click **Create Resource.**
+21. Create Methods for /users/{user_id}.
+22. **GET Method for /users/{user_id}:**
 - Select the /users/{user_id} resource.
 - Click on **Create Method** and **choose GET.**
 - Choose **Lambda Function** as the integration type.
 - Enable **Lambda Proxy Integration.**
 - Enter the name of your Lambda function and click **Save.**
-31. **DELETE Method for /users/{user_id}:**
+23. **DELETE Method for /users/{user_id}:**
 - Select the /users/{user_id} resource.
 - Click on **Create Method** and choose **DELETE.**
 - Choose **Lambda Function** as the integration type.
 - Enable **Lambda Proxy Integration.**
 - Enter the name of your Lambda function and click **Save.**
-32. **PUT Method for /users/{user_id}:**
+24. **PUT Method for /users/{user_id}:**
 - Select the /users/{user_id} resource.
 - Click on **Create Method** and choose **PUT.**
 - Choose **Lambda Function** as the integration type.
