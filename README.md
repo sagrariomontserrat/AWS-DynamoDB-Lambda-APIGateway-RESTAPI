@@ -90,6 +90,41 @@
 - Enable **Lambda Proxy Integration.**
 - Enter the name of your Lambda function and click **Save.**
 ![Picture16](https://github.com/user-attachments/assets/0305298c-5584-4e67-afa8-3387e3aeb269)
+25. Once you've created all the resources and methods, you need to deploy the API.
+26. Click on **Deploy API.**
+27. Select create new **stage**.
+28. Type **Stage name**.
+28. Click **Deploy.**
+![Picture17](https://github.com/user-attachments/assets/19627bc7-0751-4c75-9f70-c9a32e7d3dc7)
+29. On the left navigation pane click on **Stages**.
+30. After deployment, the **Invoke URL** for your API will be available which will look like:
+![Picture18](https://github.com/user-attachments/assets/5f46e567-6a3b-4d39-b19e-e844731d1bb5)
+
+## 📦 Testing the API in Postman
+1. **Test GET /users**
+2. Select the GET method.
+3. In the URL bar, enter the URL for /users:
+4. Click **Send**
+5. If your Lambda function is properly set up, you should receive a 200 OK response with a list of users in JSON format.
+![Picture19](https://github.com/user-attachments/assets/b57976a3-8a96-4da6-8a35-953f98012b40)
+
+1. **Test POST /users**
+2. Use the Body tab in Postman and select raw and JSON as the format. You can add a sample user object like this:
+
+## Usage/Examples
+
+```json
+{
+  "user_id": "123",
+  "name": "John Doe",
+  "email": "johndoe@example.com"
+}
+```
+
+  
+
+
+
 
 
 
