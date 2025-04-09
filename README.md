@@ -113,8 +113,8 @@
 ```json
 {
   "user_id": "123",
-  "name": "John Doe",
-  "email": "johndoe@example.com"
+  "name": "Montse",
+  "email": "montse@mail.com"
 }
 ```
 3. Select the **POST** method.
